@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css?family=Irish+Grover');
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  font-family: 'Irish Grover';
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;                /* makes items horizontal */
+  justify-content: center;      /* centers them horizontally */
+  align-items: center;
+  background-color: #001f49;
+
+  position: fixed;              /* fix to viewport */
+  top: 0;                       /* stick to top */
+  left: 0;
+  width: 100%;                  /* span full width */
+  z-index: 1000;                /* stay above other content */
+}
+
+ul li {
+  margin: 30px;
+}
+
+ul li a {
+  display: block;
+  color: #ffff;
+
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 0px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul li a:hover {
+  color: #c20a0a;
+}
+
+
+#intro {
+  margin-top: 5%;
+  height: 600px;
+  /* background-color:#ff9d00; */
+  background-image: url("assets/IMG_3446.jpeg");
+  background-size: cover;       /* fill the container */
+  background-repeat: no-repeat;
+  text-align: justify;
+  font-family: 'Irish Grover';
+  font-size: 24px;
+  color: #ffff;
+
+}
+
+#introp {
+  width: 900px;
+  float: right;
+  background-color: #001f49;
+  border: #001f49 10px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 40px;
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Irish Grover';
+  color: #023e8a;
+  font-size: 40px;
+  /* background-color: #023e8a; */
+}
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  border: #6a579a solid 5px;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: auto;
+  width: auto;
+}
+
+.container2 img {
+  object-fit: contain;
+  width: 100%;
+  height: 250px;
+}
+.contacti {
+  margin-top: 10%;
+  height: 110px;
+  text-align: center;
+  font-family: 'Irish Grover';
+  color: white;
+  font-size: 40px;
+  background-color: #001f49;
+  margin-left: 28%;
+  margin-right: 28%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cert {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Irish Grover';
+  color: black;
+  font-size: 40px;
+  background-color: #6a579a;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.projs {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Irish Grover';
+  color: black;
+  font-size: 40px;
+  background-color: #8bd7ba;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 0.5%;
+  font-size: 40px;
+  font-family: 'Irish Grover';
+  color: #ffff;
+}
+
+h3 {
+  font-family: 'Irish Grover';
+  color: #ffff;
+  font-size: 20px;
+}
+
+#projects, #certi {
+  height: 600px;
+  background-size: cover;       /* fill the container */
+  background-repeat: no-repeat;
+  text-align: justify;
+  font-family: 'Irish Grover';
+  font-size: 24px;
+  color: #ffff;
+
+}
+#projects {
+    background-image: url("assets/IMG_3477.jpeg");
+}
+
+#certi {
+  background-image: url("assets/IMG_3481.JPG");
+}
+
+h2{
+  padding: 0;
+  margin: 0;
+}
+
+#projects button {
+  float: right;
+  margin-top: 12%;
+  margin-right: 20%;
+  font-family: 'Irish Grover';
+  color: black;
+  border: none;
+  padding: 30px 52px;
+  background-color: #8bd7ba;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#certi button {
+  float: left;
+  margin-top: 12%;
+  margin-left: 15%;
+  font-family: 'Irish Grover';
+  color: black;
+  border: none;
+  padding: 34px 52px;
+  background-color: #6a579a;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#projects p {
+  float: left;
+  margin-top: 12%;
+  margin-left: 5%;
+  padding: 20px 20px;
+  padding-top: 25px;
+  font-family: 'Irish Grover';
+  width: 700px;
+  height: 130px;
+  color: black;
+  background-color: #8bd7ba;
+  border-radius: 30px;
+  font-size: 24px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#certi p {
+  float: left;
+  margin-top: 12%;
+  margin-left: 10%;
+  padding: 20px 20px;
+  padding-top: 25px;
+  font-family: 'Irish Grover';
+  width: 760px;
+  height: 130px;
+  color: black;
+  background-color: #6a579a;
+  border-radius: 30px;
+  font-size: 24px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#bodycer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("assets/IMG_3481.JPG");
+
+}
+
+#contt {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("assets/IMG_3446.jpeg");
+}
+
+.propro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("assets/IMG_3477.jpeg");
+}
+
+#hamburger {
+  display: none;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  width: 70%;
+  height: 80%;
+  align-items: center;
+}
+
+fieldset {
+  color: #ffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 43%;
+  width: 50%;
+  border: 5px solid #c20a0a;
+  border-radius: 10px;
+  background-color: #001f49;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+legend {
+  font-size: medium;
+  word-spacing: 4px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 95%;
+  padding: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  left: 5px;
+  right: 1px;
+  border: solid #c20a0a;
+}
+
+textarea{
+  display: block;
+  width: 95%;
+  padding: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  left: 5px;
+  right: 1px;
+  border: #c20a0a solid;
+}
+label {
+  display: block;
+  width: 100%;
+  margin: 1%;
+}
+#smb, label, legend, fieldset {
+  font-family: 'Irish Grover';
+}
+#smb{
+    background-color: #c20a0a;
+    width: 40%;
+    height: 20%;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700px;
+    font-size: 16px;
+    border: #c20a0a 2px;
+    min-width: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#procollection {
+  width: 80%;
+  height: 400px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 30px;
+  background-color: #8bd7ba;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+  
+@media only screen and (max-width: 786px) {
+  
+  /* Remove nav background - make it transparent */
+  ul {
+    background-color: transparent;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+  
+  /* Hide all nav items except hamburger by default */
+  ul li {
+    display: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  /* Show only hamburger icon with small background */
+  ul li#hamburger {
+    display: block;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    position: relative;
+  }
+  
+ul li#hamburger a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #001f49;
+  padding: 5px 5px; /* add padding */
+  width: 40px; /* set width */
+  border-radius: 10px;
+  position: relative; /* change from absolute to relative */
+}
+  
+  /* When menu is open (responsive class added) - add background to menu */
+  ul.responsive {
+    flex-direction: column;
+    background-color: #001f49;
+    width: 100px; /* small width for menu */
+    border-radius: 10px; /* rounded bottom-right corner */
+  }
+  
+  ul.responsive li {
+    display: block;
+    width: 30%;
+    height: 30%;
+  }
+  
+  ul.responsive li a {
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  ul.responsive li#hamburger a {
+    background-color: #001f49; /* remove background when menu open */
+  }
+  
+  /* Intro section */
+  #intro {
+    height: auto;
+    margin-top: 0px;
+    padding: 20px;
+  }
+  
+  #introp {
+    width: 90%;
+    float: none;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  /* Container grid */
+  .container2 {
+    grid-template-columns: 1fr;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .container2 img {
+    height: 200px;
+  }
+  
+  /* Contact section */
+  .contacti {
+    margin: 5% 10%;
+    font-size: 24px;
+    height: auto;
+    padding: 20px;
+  }
+  
+  /* Certificates and Projects sections */
+  .cert, .projs {
+    margin: 5% 20px;
+    font-size: 28px;
+    padding: 15px;
+  }
+  
+  /* Projects and Certificates pages */
+  #projects, #certi {
+    height: auto;
+    padding: 20px;
+  }
+
+  #projects p, #certi p {
+    float: none;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 15px;
+  }
+  
+  #projects button, #certi button {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    padding: 20px 30px;
+    font-size: 22px;
+    width: 50%;
+  }
+  
+  /* Form */
+  form {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20%;
+  }
+  
+  fieldset {
+    width: 70%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+  
+  legend {
+    font-size: 18px;
+  }
+  
+  input, textarea {
+    width: 94%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #smb {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 16px;
+  }
+  
+  /* Project collection */
+  #procollection {
+    width: 90%;
+    height: auto;
+    margin: 20px 20px;
+    padding: 10px 7px;
+    padding-bottom: 150%;
+  }
+}
