@@ -450,6 +450,7 @@ ul li#hamburger a {
     float: none;
     margin: 20px auto;
     padding: 20px;
+    font-size: 18px;
   }
   
   /* Headings */
@@ -459,7 +460,7 @@ ul li#hamburger a {
   }
   
   h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   
   /* Container grid */
