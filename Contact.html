@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<title>
+    <html lang="en"></html>
+</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"> 
+    <!-- used to specify the character encoding for the HTML doc. UTF-8 tag allows the use of a wide range of characters, 
+     including emojis and symbols that are not part of the traditional ASCII character set. 
+     Without this tag, you would need to use HTML entities to manually insert special characters or emojis. -->
+     <link rel="stylesheet" href="cha.css">
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    </head>
+    <header>
+      <ul>
+        <li id="hamburger">
+            <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+        </li>
+  <li><a href="chawans.html">Home</a></li>
+  <li><a href="Projects.html">Projects</a></li>
+  <li><a href="certifications.html">Certificates</a></li>
+  <!-- <li><a href="aboutme.html">About me</a></li> -->
+  <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <body id="contt">
+        <div class="contacti">
+        <h1>Contact Me!</h1>
+        <h3>Chawanrat Noonamkam +44 7796 065704 chawanratc.n@gmail.com</h3>
+        </div>
+        <section>
+            <form method="post" action="#" id="mycontact">
+                <fieldset>
+                    <legend>OR</legend>
+                    <label> Name*:
+                        <input type="text" name="Name" id="nc">
+                    </label>
+                    <label>Email*:
+                        <input type="text" name="Email" id="ec">
+                    </label>
+                    <label>Message*: 
+                        <textarea name="Message" id="ms"></textarea>
+                        <input type="submit" value="Send Message" id="smb">
+                        <p class="Message">*Required field</p>
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
